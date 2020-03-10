@@ -1,0 +1,16 @@
+﻿<Window x:Class="Sokoban.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sokoban"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="294,27,0,0" TextWrapping="Wrap" Text="Sokoban" VerticalAlignment="Top" Height="75" Width="161" TextAlignment="Center" FontSize="36" TextDecorations="Underline" FontFamily="Goudy Old Style" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="316,107,0,0" TextWrapping="Wrap" Text="Press begin to start application" VerticalAlignment="Top" Height="84" Width="126" TextAlignment="Center" FontSize="18" FontWeight="Bold" FontFamily="Goudy Old Style"/>
+        <Button x:Name="beginAppButton" Content="Begin" HorizontalAlignment="Left" Margin="300,234,0,0" VerticalAlignment="Top" Width="155" Height="43" FontSize="18" FontWeight="Bold" Click="beginAppButton_Click_1"/>
+        <Button Content="DONATE" HorizontalAlignment="Left" Margin="665,357,0,0" VerticalAlignment="Top" Width="93" Height="38" FontWeight="Bold" FontSize="16" Click="Button_Click"/>
+
+    </Grid>
+</Window>
